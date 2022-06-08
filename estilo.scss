@@ -1,0 +1,27 @@
+$GrisOscuro: rgb(67, 67, 67);
+$GrisClaro: rgb(202, 202, 202);
+
+.foot {
+    background-color: $GrisClaro;
+    padding: 3em 2em 2em 2em;
+
+    a {
+        color: $GrisOscuro;
+    }
+
+    a:hover {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
+
+.prod {
+    color: $GrisOscuro;
+    box-shadow: 0px 5px 5px $GrisOscuro;
+}
+
+.text-box {
+    height: 6em;
+    overflow: hidden;
+}
